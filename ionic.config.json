@@ -1,0 +1,7 @@
+{
+  "name": "Isteqdam",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
