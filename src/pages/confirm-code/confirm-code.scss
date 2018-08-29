@@ -1,0 +1,88 @@
+.verify-body .back {
+
+}
+
+.verify-body {
+  background: #b7d9ff!important;
+}
+
+.verify-body .logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+.verify-body .ph-header-verify {
+  color: #4789c8;
+  font-weight: 800;
+  margin-bottom: 0.8em;
+  text-align: center;
+}
+.verify-body .ph-header-verify span {
+  font-size: 0.7em;
+}
+.verify-body .ph-no-input {
+  background: #6ea5db;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  color: white;
+  border: none;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.verify-body div .ph-no-submit {
+  background: white;
+  color:  #6ea5db;
+  display: block;
+  margin: 0 auto;
+  display: block;
+  width: 35%;
+  margin-top: 20px!important;
+}
+.verify-body div .ph-no-input::placeholder {
+  color: #e2e2e2;
+}
+.verify-body hr {
+  width: 20%;
+}
+.verify-body .sign-up-form label {
+  display: block;
+  color: white;
+}
+.verify-body .action-verify {
+  list-style: none;
+  padding: 0;
+}
+.verify-body .verify-page {
+  position: relative;
+  top: calc(100vh/4);
+}
+.verify-body .action-verify li button {
+  float: right;
+  color: #6ea5db;
+  padding: 3px;
+}
+.verify-body verify-body {
+  height: 100vh;
+}
+.verify-body .action-verify li:first-of-type {
+  float: left;
+}
+.verify-body .verify-page .action-verify-hr {
+  width: 95%;
+  margin-bottom: 5px;
+}
+.verify-body .sign-up-form {
+  margin-bottom: 25px;
+}
+.verify-body .sign-up-form input {
+  width: calc(100%/7);
+  text-align: center;
+  background: #6ea5db;
+  border: none;
+  padding: 5px;
+
+}
+.verify-body .back {color:white;    font-size: 1.5em;}

@@ -1,3 +1,124 @@
-page-home {
+.body{
+  background: white !important;
+}
 
+.toolbar-background {
+  background-color: rgb(90,150,210);
+}
+
+.container-flex{
+  display: flex !important;
+  flex-direction: column !important;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+//.navBar{
+//  background: rgb(90,150,210);
+//  padding: 5px;
+//  display: flex;
+//  flex-direction: row;
+//  align-items: left;
+//
+//}
+//.view-title{
+//  color: white !important;
+//  //font-weight: 500;
+//  //font-size: 1.2em;
+//  //display: inline-block;
+//  //margin: 0 auto;
+//  border: 0px !important;
+//}
+
+
+.toolbar-title{
+  color: white;
+  text-align: center;
+}
+
+.ion-md-menu{
+  color: white !important;
+}
+.ion-ios-menu{
+  color: white !important;
+}
+
+
+.menu-btn{
+  height: 90%;
+  background: rgba(0,0,0,0.0);
+  color: white;
+  font-size: 20px;
+
+}
+
+
+.services{
+  flex: 1;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+.search-workers{
+  background: white;
+  flex: 0.5;
+  margin-right: 2px;
+}
+.send-request{
+  background: white;
+  flex: 0.5;
+  margin-left: 2px;
+}
+.my-request{
+  background: #b7d9ff;
+  flex: 0.5;
+  margin-right: 2px;
+
+
+}
+.pending-request{
+  background: #b7d9ff;
+  flex: 0.5;
+  margin-left: 2px;
+
+}
+.service{
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service p{
+  font-weight: 600;
+}
+.service button{
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.search-service button{
+  color: white;
+  background: rgb(210,75,95);
+}
+.send-service button{
+  color: white;
+  background: #b7d9ff;
+}
+.show-request-service button{
+  color: rgb(200,215,65);
+  background: white;
+}
+.show-pending-service button{
+  color: rgb(210,75,95);
+  background: white;
 }

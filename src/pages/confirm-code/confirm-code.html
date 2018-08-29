@@ -1,0 +1,33 @@
+<!--
+  Generated template for the ConfirmCodePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<ion-content class="verify-body">
+    <div class="container">
+        <!--<span class="back"><i class="fas fa-chevron-left"></i></span>-->
+        <div class="verify-page">
+
+            <h1 class="ph-header-verify"><span>{{ 'confirmCode.enterConfirmCode' | translate }}</span></h1>
+
+            <div  class="sign-up-form form-group">
+                <input class="" placeholder="" maxlength="1" [(ngModel)]="firstChar"/>
+                <input class="" placeholder="" maxlength="1" [(ngModel)]="secondChar"/>
+                <input class="" placeholder="" maxlength="1" [(ngModel)]="thirdChar"/>
+                <input class="" placeholder="" maxlength="1" [(ngModel)]="fourthChar"/>
+                <input class="" placeholder="" maxlength="1" [(ngModel)]="fifthChar"/>
+                <input class="" placeholder="" maxlength="1" [(ngModel)]="sixthChar"/>
+                <button class="btn btn-default ph-no-submit" (click)="confirmCode()">{{ 'confirmCode.confirm' | translate }}</button>
+
+                <hr class="action-verify-hr">
+                <ul class="action-verify">
+                    <li><button (click)="resendCofirmCode()">{{ 'confirmCode.ResendCode' | translate }}</button></li>
+                    <li><button (click)="changePhoneNumber()">{{ 'confirmCode.enterAnotherNumber' | translate }}</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</ion-content>

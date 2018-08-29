@@ -1,18 +1,61 @@
-<ion-header>
-  <ion-navbar>
+
+<ion-header >
+  <ion-navbar >
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title color="white">Home</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+<ion-content class="body">
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+  <div class="container-flex">
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+    <!--<div class="navBar">-->
+      <!--<button class="menu-btn" menuToggle>-->
+        <!--<ion-icon name="menu" class="menu-icon"></ion-icon>-->
+      <!--</button>-->
+      <!--<span class="view-title">Home</span>-->
+
+    <!--</div>-->
+
+    <div class="services">
+
+      <div class="flex-row">
+        <div class="search-workers">
+          <div class="service search-service">
+            <img src="../../assets/imgs/brandLogo.png" class="img-responsive">
+            <p>Lorem Ipsum Is Simply</p>
+            <button>Click Me</button>
+          </div>
+        </div>
+        <div class="send-request">
+          <div class="service send-service">
+            <img src="../../assets/imgs/brandLogo.png" class="img-responsive">
+            <p>Lorem Ipsum Is Simply</p>
+            <button>Click Me</button>
+          </div>
+        </div>
+      </div>
+      <div class="flex-row">
+        <div class="my-request">
+          <div class="service show-request-service">
+            <img src="../../assets/imgs/brandLogo.png" class="img-responsive">
+            <p>Lorem Ipsum Is Simply</p>
+            <button>Click Me</button>
+          </div>
+        </div>
+        <div class="pending-request">
+          <div class="service show-pending-service">
+            <img src="../../assets/imgs/brandLogo.png" class="img-responsive">
+            <p>Lorem Ipsum Is Simply</p>
+            <button>Click Me</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
 </ion-content>

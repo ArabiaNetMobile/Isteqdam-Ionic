@@ -1,0 +1,17 @@
+<!--
+  Generated template for the EnterMobilePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+
+<ion-content class="enterMobPage">
+    <img class="logo img-responsive" src="../../assets/imgs/brandLogo.png" alt="logo"  >
+    <h1 class="ph-header">{{ 'enterMobile.enterPhoneNumber' | translate }}</h1>
+    <hr >
+    <!--<input class="ph-no-input" type="text" placeholder="Enter your phone"/>-->
+    <int-phone-prefix [(ngModel)]="phoneNumber" class="ph-no-input"></int-phone-prefix>
+    <button class="btn btn-default ph-no-submit" (click)="confirmPhoneNumber()">{{ 'enterMobile.confirm' | translate }}</button>
+</ion-content>

@@ -1,0 +1,35 @@
+{
+  "enterMobile": {
+    "enterPhoneNumber": "Enter Phone Number",
+    "wrongPhoneNumber": "Wrong Phone Number",
+    "confirm": "Confirm"
+  },
+  "confirmCode" : {
+    "enterConfirmCode": "Enter Confirm Code",
+    "confirm": "Confirm",
+    "enterAnotherNumber": "Enter Another Number",
+    "ResendCode": "Resend Code",
+    "wrongConfirmCode": "Wrong Confirmation Code"
+  },
+  "login":{
+    "wrongUserNameOrPass":"Wrong user name or password"
+  },
+  "register" : {
+    "signUP" : "SIGN UP",
+    "fName" : "First Name",
+    "lName" : "Last Name",
+    "email" : "Email",
+    "identity" : "Identity Number",
+    "duplicatedID" : "Duplicated ID Number"
+  },
+  "block" : {
+    "blockMsg" : "You have been blocked,please contact system admin."
+  },
+  "noInternetMsg" : {
+    "noInternetMsg" : "No internet connection,please check your network."
+  },
+  "confirm":"Confirm",
+  "networkError":"No internet connection,check your internte connection",
+  "serverError":"Server Error,Please try again later.",
+  "waintingRequest":"Loading"
+}

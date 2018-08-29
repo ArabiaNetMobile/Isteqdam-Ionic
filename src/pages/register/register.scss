@@ -1,0 +1,46 @@
+.registerPage {
+  background: #b7d9ff!important;
+}
+.registerPage .logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+.registerPage .ph-header-signup {
+  color: #4789c8;
+  font-weight: 800;
+  margin-bottom: 0.8em;
+}
+.registerPage .ph-header-signup span {
+  border-bottom: 1px solid white;
+}
+.registerPage .ph-no-input {
+  background: #6ea5db;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  color: white;
+  border: none;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.registerPage div .ph-no-submit {
+  background: white;
+  color:  #6ea5db;
+  display: block;
+  margin: 0 auto;
+  display: block;
+  width: 35%;
+}
+.registerPage div .ph-no-input::placeholder {
+  color: #e2e2e2;
+}
+.registerPage hr {
+  width: 20%;
+}
+.registerPage .sign-up-form label {
+  display: block;
+  color: white;
+}

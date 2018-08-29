@@ -1,0 +1,36 @@
+{
+  "enterMobile": {
+    "enterPhoneNumber": "أدخل رقم الهاتف",
+    "wrongPhoneNumber": "رقم الهاتف خاطئ",
+    "confirm": "موافق"
+  },
+  "confirmCode" : {
+    "enterConfirmCode": "أدخل كود التفعيل",
+    "confirm": "موافق",
+    "enterAnotherNumber": "أدخل رقم أخر",
+    "ResendCode": "أعادة أرسال كود التفعيل",
+    "wrongConfirmCode": "كود التفعيل خاطئ"
+  },
+  "login":{
+    "wrongUserNameOrPass":"خطأ بأسم المستخدم او كلمة المرور"
+  },
+  "register" : {
+    "signUP" : "التسجيل",
+    "fName" : "الأسم الأول",
+    "lName" : "الأسم الأخير",
+    "email" : "البريد الألكتروني",
+    "identity" : "رقم الهوية",
+    "duplicatedID" : "رقم الهوية مكرر"
+  },
+  "block" : {
+    "blockMsg" : "لقد تم حظرك,من فضلك راجع مدير النظام"
+  },
+  "noInternetMsg" : {
+    "noInternetMsg" : "لايوجد اتصال بالأنترنت,من فضلك راجع اعدادات الشبكة"
+  },
+  "confirm":"موافق",
+  "networkError":"لايوجد اتصال بالأنترنت,من فضلك راجع اعدادات الشبكة",
+  "serverError":"خطأ في الخادم,من فضلك حاول بعد قليل",
+  "waintingRequest":"جاري التحميل"
+
+}

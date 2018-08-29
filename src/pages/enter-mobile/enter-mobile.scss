@@ -1,0 +1,36 @@
+.enterMobPage {
+  background: #b7d9ff!important;
+}
+.enterMobPage .logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+.enterMobPage .ph-header {
+  color: #4789c8;
+  font-weight: 800;
+  text-align: center;
+}
+.enterMobPage .ph-no-input {
+  background: #6ea5db;
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  color: white;
+  margin-bottom: 15px;
+  padding: 0px;
+}
+.enterMobPage .ph-no-submit {
+  background: white;
+  color:  #6ea5db;
+  display: block !important;
+  margin: 0 auto !important;
+  width: 35%;
+}
+.enterMobPage .ph-no-input::placeholder {
+  color: #e2e2e2;
+}
+.enterMobPage hr {
+  width: 20%;
+}

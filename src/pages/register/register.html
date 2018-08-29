@@ -1,0 +1,55 @@
+<!--
+  Generated template for the RegisterPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<!--<ion-content padding>-->
+
+  <!--<img src="../../assets/imgs/brandLogo.png" class="logo img-responsive">-->
+  <!--<h1 class="view-title">{{ 'register.signUP' | translate }}</h1>-->
+
+  <!--<div class="flex-container">-->
+    <!--<div class="input">-->
+      <!--<h1 class="input-title">{{ 'register.fName' | translate }}</h1>-->
+      <!--<div class="input-field"><ion-icon name="person" class="input-icon"></ion-icon><input type="text" class="input-content"/></div>-->
+    <!--</div>-->
+    <!--<div class="input">-->
+      <!--<h1 class="input-title">{{ 'register.lName' | translate }}</h1>-->
+      <!--<div class="input-field"><ion-icon name="person" class="input-icon"></ion-icon><input type="text" class="input-content"/></div>-->
+    <!--</div>-->
+    <!--<div class="input">-->
+      <!--<h1 class="input-title">{{ 'register.email' | translate }}</h1>-->
+      <!--<div class="input-field"><ion-icon name="mail" class="input-icon"></ion-icon><input type="text" class="input-content"/></div>-->
+    <!--</div>-->
+    <!--<div class="input">-->
+      <!--<h1 class="input-title">{{ 'register.identity' | translate }}</h1>-->
+      <!--<div class="input-field"><ion-icon name="lock" class="input-icon"></ion-icon><input type="text" class="input-content"/></div>-->
+    <!--</div>-->
+  <!--</div>-->
+
+  <!--<button class="confirm-btn" (click)="regiseterUser()">Confirm</button>-->
+  <!---->
+<!--</ion-content>-->
+
+<ion-content class="registerPage">
+
+  <div class="container">
+    <img class="logo img-responsive" src="../../assets/imgs/brandLogo.png" alt="logo">
+    <h1 class="ph-header-signup"><span>{{ 'register.signUP' | translate }}</span></h1>
+
+    <div class="sign-up-form">
+      <label>{{ 'register.fName' | translate }}</label>
+      <input class="ph-no-input" type="text" placeholder="{{ 'register.fName' | translate }}" [(ngModel)]="fName"/>
+      <label>{{ 'register.lName' | translate }}</label>
+      <input class="ph-no-input" type="text" placeholder="{{ 'register.lName' | translate }}" [(ngModel)]="lName"/>
+      <label> {{ 'register.email' | translate }}</label>
+      <input class="ph-no-input" type="text" placeholder="{{ 'register.email' | translate }}" [(ngModel)]="email"/>
+      <label>{{ 'register.identity' | translate }} </label>
+      <input class="ph-no-input" type="text" placeholder="{{ 'register.identity' | translate }}" [(ngModel)]="id"/>
+      <button class="btn btn-default ph-no-submit" (click)="regiseterUser()">{{ 'confirm' | translate }}</button>
+    </div>
+  </div>
+</ion-content>
